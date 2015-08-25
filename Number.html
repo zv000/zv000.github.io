@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>猜數字遊戲</title>
+    <meta charset="utf-8">
+    <style>
+    body {
+        font-size: 18pt;
+        color: #2f7679;
+        font-family: "Microsoft JhengHei", "Heiti TC", "WenQuanYi Zen Hei", sans-serif
+    }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>記錄：</p>
+    </div>
+    <div>
+        <script type="text/javascript">
+        var s = new Array(4);
+        do {
+            for (var i = 0; i < 4; i++) {
+                s[i] = parseInt(Math.random() * 10).toString();
+            }
+
+            var new_ans_check = false;
+            for (var i = 0; i < 4; i++) {
+                for (var j = 0; j < 4; j++) {
+                    if (i != j && s[i] == s[j]) {
+                        new_ans_check = true;
+                    }
+                }
+            }
+        }
+        while (new_ans_check)
+
+
+        var answer = s[0] + s[1] + s[2] + s[3];
+        var guess = "0000";
+        var cA = 0;
+        var cB = 0;
+
+        for (var t = 1; t <= 11; t++) {
+
+            if (t > 10) {
+                document.write("可惜!答案是" + answer);
+                break;
+            }
+
+            var guess = prompt("猜猜看四位不重複的數字~注意，只有十次機會");
+
+            var check = false;
+            for (var i = 0; i < 4; i++) {
+                for (var j = 0; j < 4; j++) {
+                    var gnum = parseInt(guess);
+                    if (guess.length != 4 || isNaN(gnum) || guess[i] == guess[j] && i != j) {
+                        var guess = prompt("請檢查是否輸入了四位不重複的數字!");
+                        check = true;
+                        
+                    }
+                }
+            }
+
+
+
+
+            for (var i = 0; i < answer.length; i++) {
+                for (var j = 0; j < guess.length; j++) {
+                    if (answer[i] === guess[j]) {
+                        if (i === j) {
+                            cA++;
+                        } else
+                            cB++;
+                    }
+                }
+            }
+            document.write(t + "." + " " + guess + " " + cA + "A" + cB + "B" + "<br>");
+
+            if (cA === 4) {
+                document.write("恭喜你!答案就是" + guess);
+                break;
+            } else {
+                cA = 0;
+                cB = 0;
+            }
+        }
+        </script>
+    </div>
+</body>
+
+</html>
