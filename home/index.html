@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>My profile</title>
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="materialize/css/uikit0.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+    .block1 {
+        margin-top: 13%;
+    }
+    
+    h3 {
+        font-family: "Roboto";
+        font-weight: 300;
+        color: #ff6200;
+    }
+    
+    h4 {
+        font-family: "Roboto";
+        font-weight: 300;
+        color: #484848;
+    }
+    
+    h5 {
+        font-family: "Microsoft JhengHei", "Heiti TC", "WenQuanYi Zen Hei", sans-serif;
+        color: #484848;
+    }
+    
+    .btn {
+        background-color: #ffdf5a;
+        font-family: "Microsoft JhengHei", "Heiti TC", "WenQuanYi Zen Hei", sans-serif;
+        font-size: 1.1em;
+    }
+    
+    #myphoto {
+        border: 1px solid #363636;
+        display: block;
+        margin: auto;
+    }
+    
+    .about_text {
+        color: black;
+        font-size: 1.3em;
+        font-family: "Microsoft JhengHei", "Heiti TC", "WenQuanYi Zen Hei", sans-serif;
+        text-align: center;
+    }
+    
+    .card-title {
+        font-family: "Microsoft JhengHei", "Heiti TC", "WenQuanYi Zen Hei", sans-serif;
+    }
+    
+    .aa {
+        font-family: "Microsoft JhengHei", "Heiti TC", "WenQuanYi Zen Hei", sans-serif;
+        font-size: 1.3em;
+        color: white;
+    }
+    
+    .aaa {
+        font-family: "Microsoft JhengHei", "Heiti TC", "WenQuanYi Zen Hei", sans-serif;
+        font-size: 1.3em;
+        color: black;
+    }
+    
+    .dd {
+        background-image: url(dd.png);
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .d1 {
+        background-image: url(d1.png);
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 200px;
+        float: right;
+    }
+    
+    .d2 {
+        background-image: url(d2.png);
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 200px;
+        float: left;
+    }
+    </style>
+</head>
+
+<body>
+    <!----------------------HEAD----------------------->
+    <div class="row">
+        <div class="col s12 m2 l3">&nbsp;</div>
+        <div class="col s12 m8 l6">
+            <div class="card amber accent-3 block1">
+                <div class="card-content">
+                    <div class="d1"></div>
+                    <h3>Hello!  Welcome to my profile!</h3>
+                    <h4>My name is CHANG,YU-HSUAN.</h4>
+                    <h5>你好，我是張語瑄，這是我的個人網站</h5>
+                </div>
+                <div class="card-action">
+                    <a href="#about" class="waves-effect waves-light btn" data-uk-smooth-scroll><i class="material-icons left" >face</i>關於我</a>
+                    <a href="#works" class="waves-effect waves-light btn" data-uk-smooth-scroll><i class="material-icons left">widgets</i>作品集</a>
+                    <a href="#web" class="waves-effect waves-light btn" data-uk-smooth-scroll><i class="material-icons left">cloud</i>網頁設計練習</a>
+                    <a href="#contact" class="waves-effect waves-light btn" data-uk-smooth-scroll><i class="material-icons left">email</i>聯絡我</a>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m2 l3">&nbsp;</div>
+    </div>
+    <!-----------------END--HEAD----------------------->
+    <!---------------------ABOUT----------------------->
+    <div class="row">
+        <div class="col s12 m2 l3">&nbsp;</div>
+        <div class="col s12 m8 l6">
+            <div class="card-panel cyan lighten-1" id="about">
+                <div class="row">
+                    <div class='col s12 m4'><img src=d2.png class="responsive-img "></div>
+                    <div class='col s12 m4'>
+                        <br>
+                        <br>
+                        <br>
+                        <img class="responsive-img" src="photo/0.jpg" id="myphoto">
+                    </div>
+                    <div class='col s12 m4'>&nbsp;</div>
+                </div>
+                <div class="about_text">
+                    <p>我是張語瑄，目前22歲，就讀於新竹教育大學藝術與設計學系。
+                        <br> 喜歡畫插畫、網頁設計、彈電吉他，學過一點日文。
+                    </p>
+                    <p>擅長軟體：</p>
+                    <img class="responsive-img" src="Photoshop.png">
+                    <img class="responsive-img" src="Illustrator.png">
+                    <img class="responsive-img" src="flash.png">
+                    <img class="responsive-img" src="rhino.png">
+                    <p>語言檢定：</p>
+                    <img class="responsive-img" src="JLPT.png">
+                    <div class="right-align">
+                        <a href="#" data-uk-smooth-scroll><img src="top.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m2 l3">&nbsp;</div>
+    </div>
+    <!---------------END---ABOUT----------------------->
+    <!---------------------WORKS----------------------->
+    <div class="row">
+        <div class="col s12 m2 l3">&nbsp;</div>
+        <div class="col s12 m8 l6">
+            <div class="card-panel light-green" id="works">
+                <div class="row">
+                    <div class="col s12 m4 l3">
+                        <div class="dd"></div>
+                    </div>
+                </div>
+                <p class="aaa"><i class="material-icons">extension</i>&nbsp;&nbsp;立體作品</p>
+                <div class="row">
+                    <!--------------small img1-------------->
+                    <div class="col s6 m4 l2">
+                        <figure class="uk-overlay uk-overlay-hover">
+                            <a href="works/4.jpg" data-uk-lightbox title="<span class='aa'>流動之時 / 玻璃鑄造</span>">
+                                <img src="works_small/4.jpg">
+                                <figcaption class="uk-overlay-panel uk-overlay-icon uk-overlay-background uk-overlay-fade"></figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <!--------------end---small img1---------------->
+                    <!--------------small img2-------------->
+                    <div class="col s6 m4 l2">
+                        <figure class="uk-overlay uk-overlay-hover">
+                            <a href="works/6.jpg" data-uk-lightbox title="<span class='aa'>球燈 / ABS模型板</span>">
+                                <img src="works_small/6.png">
+                                <figcaption class="uk-overlay-panel uk-overlay-icon uk-overlay-background uk-overlay-fade"></figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <!--------------end---small img2---------------->
+                    <!--------------small img3-------------->
+                    <div class="col s6 m4 l2">
+                        <figure class="uk-overlay uk-overlay-hover">
+                            <a href="works/11.jpg" data-uk-lightbox title="<span class='aa'>椅子 / 木頭</span>">
+                                <img src="works_small/11.png">
+                                <figcaption class="uk-overlay-panel uk-overlay-icon uk-overlay-background uk-overlay-fade"></figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <!--------------end---small img3---------------->
+                </div>
+                <!------------平面作品----------------->
+                <p class="aaa"><i class="material-icons">color_lens</i>&nbsp;&nbsp;平面作品</p>
+                <div class="row">
+                    <!--------------small img4-------------->
+                    <div class="col s6 m4 l2">
+                        <figure class="uk-overlay uk-overlay-hover">
+                            <a href="works/7.jpg" data-uk-lightbox title="<span class='aa'>皇家哥本哈根杯 / RHINO</span>">
+                                <img src="works_small/7.png">
+                                <figcaption class="uk-overlay-panel uk-overlay-icon uk-overlay-background uk-overlay-fade"></figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <!--------------end---small img4---------------->
+                    <!--------------small img5-------------->
+                    <div class="col s6 m4 l2">
+                        <figure class="uk-overlay uk-overlay-hover">
+                            <a href="works/8.png" data-uk-lightbox title="<span class='aa'>IKEA澆花壺 / RHINO</span>">
+                                <img src="works_small/8.jpg">
+                                <figcaption class="uk-overlay-panel uk-overlay-icon uk-overlay-background uk-overlay-fade"></figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <!--------------end---small img5---------------->
+                    <!--------------small img6-------------->
+                    <div class="col s6 m4 l2">
+                        <figure class="uk-overlay uk-overlay-hover">
+                            <a href="works/1.png" data-uk-lightbox title="<span class='aa'>社團社徽 / photoshop</span>">
+                                <img src="works_small/1.png">
+                                <figcaption class="uk-overlay-panel uk-overlay-icon uk-overlay-background uk-overlay-fade"></figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <!--------------end---small img6---------------->
+                    <!--------------small img7-------------->
+                    <div class="col s6 m4 l2">
+                        <figure class="uk-overlay uk-overlay-hover">
+                            <a href="works/2.png" data-uk-lightbox title="<span class='aa'>社團社徽 / photoshop</span>">
+                                <img src="works_small/2.png">
+                                <figcaption class="uk-overlay-panel uk-overlay-icon uk-overlay-background uk-overlay-fade"></figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <!--------------end---small img7---------------->
+                    <!--------------small img8-------------->
+                    <div class="col s6 m4 l2">
+                        <figure class="uk-overlay uk-overlay-hover">
+                            <a href="works/3.png" data-uk-lightbox title="<span class='aa'>社團社徽 / photoshop</span>">
+                                <img src="works_small/3.png">
+                                <figcaption class="uk-overlay-panel uk-overlay-icon uk-overlay-background uk-overlay-fade"></figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <!--------------end---small img8---------------->
+                </div>
+                <!----------二次創作--------->
+                <p class="aaa"><i class="material-icons">invert_colors</i>&nbsp;&nbsp;二次創作</p>
+                <div class="row">
+                    <!--------------small img9-------------->
+                    <div class="col s6 m4 l2">
+                        <figure class="uk-overlay uk-overlay-hover">
+                            <a href="works/9.gif" data-uk-lightbox title="<span class='aa'>梅露可物語-「天涯の訪問者」コーネリア / E-mote</span>">
+                                <img src="works_small/9.png">
+                                <figcaption class="uk-overlay-panel uk-overlay-icon uk-overlay-background uk-overlay-fade"></figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <!--------------end---small img9---------------->
+                    <!--------------small img10-------------->
+                    <div class="col s6 m4 l2">
+                        <figure class="uk-overlay uk-overlay-hover">
+                            <a href="works/10.png" data-uk-lightbox title="<span class='aa'>梅露可物語-「暢気な家臣」ごんのすけ / photoshop</span>">
+                                <img src="works_small/10.png">
+                                <figcaption class="uk-overlay-panel uk-overlay-icon uk-overlay-background uk-overlay-fade"></figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <!--------------end---small img6---------------->
+                </div>
+                <!------------商業作品----------------->
+                <div class="row">
+                    <p class="aaa"><i class="material-icons">store_mall_directory</i>&nbsp;&nbsp;商業作品</p>
+                    <!--------------small img9-------------->
+                    <div class="col s6 m4 l2">
+                        <figure class="uk-overlay uk-overlay-hover">
+                            <a target="_blank" href="https://store.line.me/stickershop/product/1020753/zh-Hant"><img src="works_small/12.png">
+                                <figcaption class="uk-overlay-panel uk-overlay-icon uk-overlay-background uk-overlay-fade"></figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <!--------------end---small img9---------------->
+                </div>
+                <div class="right-align">
+                    <a href="#" data-uk-smooth-scroll><img src="top.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m2 l3">&nbsp;</div>
+    </div>
+    <!---------------END---WORKS----------------------->
+    <!--------------------WEB practice----------------->
+    <div class="row">
+        <div class="col s12 m2 l3">&nbsp;</div>
+        <div class="col s12 m8 l6">
+            <div class="card-panel deep-purple lighten-1" id="web">
+                <div class="row">
+                    <div class='col s12 m4'><img src=d3.png class="responsive-img "></div>
+                </div>
+                <p class="aa"><i class="material-icons">whatshot</i>&nbsp;&nbsp;HTML & CSS</p>
+                <div class="row">
+                    <div class="col s12 m6 l4">
+                        <div class="uk-thumbnail">
+                            <figure class="uk-overlay uk-overlay-hover">
+                                <a target="_blank" href="http://zv000.github.io/pikachu/"><img src="works_small/w1.png">
+                                    <figcaption class="uk-overlay-panel uk-icon-link uk-icon-large uk-overlay-background uk-overlay-fade"></figcaption>
+                            </figure>
+                            <div class="uk-thumbnail-caption aaa">皮卡丘履歷</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <div class="uk-thumbnail">
+                            <figure class="uk-overlay uk-overlay-hover">
+                                <a target="_blank" href="http://zv000.github.io/bread/"><img src="works_small/w2.png">
+                                    <figcaption class="uk-overlay-panel uk-icon-link uk-icon-large  uk-overlay-background uk-overlay-fade"></figcaption>
+                            </figure>
+                            <div class="uk-thumbnail-caption aaa">烤焦麵包MENU</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <p class="aa"><i class="material-icons">pages</i>&nbsp;&nbsp;RWD</p>
+                <div class="row">
+                    <div class="col s12 m6 l4">
+                        <div class="uk-thumbnail">
+                            <figure class="uk-overlay uk-overlay-hover">
+                                <a target="_blank" href="http://zv000.github.io/bootstrap/"><img src="works_small/w3.png">
+                                    <figcaption class="uk-overlay-panel uk-icon-link uk-icon-large  uk-overlay-background uk-overlay-fade"></figcaption>
+                            </figure>
+                            <div class="uk-thumbnail-caption aaa">Bootstrap踉蹌鴕鳥</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <div class="uk-thumbnail">
+                            <figure class="uk-overlay uk-overlay-hover">
+                                <a target="_blank" href="http://zv000.github.io/date/"><img src="works_small/w4.png">
+                                    <figcaption class="uk-overlay-panel uk-icon-link uk-icon-large  uk-overlay-background uk-overlay-fade"></figcaption>
+                            </figure>
+                            <div class="uk-thumbnail-caption aaa">Bootstrap Date</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <div class="uk-thumbnail">
+                            <figure class="uk-overlay uk-overlay-hover">
+                                <a target="_blank" href="http://zv000.github.io/rilakkuma/"><img src="works_small/w5.png">
+                                    <figcaption class="uk-overlay-panel uk-icon-link uk-icon-large  uk-overlay-background uk-overlay-fade"></figcaption>
+                            </figure>
+                            <div class="uk-thumbnail-caption aaa">拉拉熊排版</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <p class="aa"><i class="material-icons">settings</i>&nbsp;&nbsp;Javascript</p>
+                <div class="row">
+                    <div class="col s12 m6 l4">
+                        <div class="uk-thumbnail">
+                            <figure class="uk-overlay uk-overlay-hover">
+                                <a target="_blank" href="http://zv000.github.io/matchstick/"><img src="works_small/w6.png">
+                                    <figcaption class="uk-overlay-panel uk-icon-link uk-icon-large  uk-overlay-background uk-overlay-fade"></figcaption>
+                            </figure>
+                            <div class="uk-thumbnail-caption aaa">火柴人大冒險</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <div class="uk-thumbnail">
+                            <figure class="uk-overlay uk-overlay-hover">
+                                <a target="_blank" href="https://zv000.github.io/Number"><img src="works_small/w7.png">
+                                    <figcaption class="uk-overlay-panel uk-icon-link uk-icon-large  uk-overlay-background uk-overlay-fade"></figcaption>
+                            </figure>
+                            <div class="uk-thumbnail-caption aaa">猜數字小遊戲</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <div class="uk-thumbnail">
+                            <figure class="uk-overlay uk-overlay-hover">
+                                <a target="_blank" href="http://zv000.github.io/seats/"><img src="works_small/w8.png">
+                                    <figcaption class="uk-overlay-panel uk-icon-link uk-icon-large  uk-overlay-background uk-overlay-fade"></figcaption>
+                            </figure>
+                            <div class="uk-thumbnail-caption aaa">選座位</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <p class="aa"><i class="material-icons">visibility</i>&nbsp;&nbsp;J-Query</p>
+                <div class="row">
+                    <div class="col s12 m6 l4">
+                        <div class="uk-thumbnail">
+                            <figure class="uk-overlay uk-overlay-hover">
+                                <a target="_blank" href="http://zv000.github.io/menu/"><img src="works_small/w9.png">
+                                    <figcaption class="uk-overlay-panel uk-icon-link uk-icon-large  uk-overlay-background uk-overlay-fade"></figcaption>
+                            </figure>
+                            <div class="uk-thumbnail-caption aaa">餐廳菜單</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-align">
+                    <a href="#" data-uk-smooth-scroll><img src="top.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m2 l3">&nbsp;</div>
+    </div>
+    <!---------------END  WEB practice----------------->
+    <!---------------------CONTACT----------------------->
+    <div class="row">
+        <div class="col s12 m2 l3">&nbsp;</div>
+        <div class="col s12 m8 l6">
+            <div class="card-panel grey darken-2" id="contact">
+                <div class="row">
+                    <div class='col s12 m4'><img src=d4.png class="responsive-img "></div>
+                    <div class='col s12 m8'>
+                        <br>
+                        <br>
+                        <div class="col s12 m3">
+                            <a class="tooltipped" data-position="bottom" data-delay="30" data-tooltip="Gmail" href="mailto:zx000878@gmail.com"> <img src="Mail-icon.png" class="responsive-img "></a>
+                        </div>
+                        <div class="col s12 m3">
+                            <a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="FaceBook" target="_blank" href="https://www.facebook.com/profile.php?id=100001575915901"><img src="facebook-icon.png" class="responsive-img "></a>
+                        </div>
+                        <div class="col s12 m3">
+                            <a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Plurk" target="_blank" href="http://www.plurk.com/agnexxx"><img src="plurk-icon.png" class="responsive-img "></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-align">
+                    <a href="#" data-uk-smooth-scroll><img src="top.png"></a>
+                </div>
+            </div>
+            <div class="col s12 m2 l3">&nbsp;</div>
+        </div>
+        <!---------------END---CONTACT----------------------->
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="materialize/js/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+        <script type="text/javascript" src="materialize/js/uikit.min.js"></script>
+        <script type="text/javascript" src="materialize/js/lightbox.min.js"></script>
+</body>
+
+</html>
