@@ -1,6 +1,6 @@
 //////////////////////////////////////////////////////////////////////
 // Object2VR 3.1.0/10752 Object Player                              //
-// Trial License: For evaluation only!                              //
+// License: LIN HSUAN PIN                                           //
 // (c) 2015, Garden Gnome Software, http://ggnome.com               //
 //////////////////////////////////////////////////////////////////////
 
